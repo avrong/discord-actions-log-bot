@@ -1,0 +1,19 @@
+Hello, i'm attendance bot! I'll help you to get attendance. Let's check out my functions:
+STANDART MODE
+I get message in format: _name_-_of_-_channel_,  _date_-_time_-_start_, _date_-_time_-_end_, _file_-_format_
+-> _name_-_of_-_channel_
+the name of the channel for which you want to receive attendance
+-> _date_-_time_-_start_
+date and time start of lecture in format: yyyy-mm-dd hh:mm
+-> _date_-_time_-_end_
+date and time start of lecture in format: yyyy-mm-dd hh:mm
+-> _file_-_format_
+format of result file, which contains information about attendance of your query. Formats: tsv, txt, csv, excel (csv)
+GOOGLE MODE
+I get message in format: _name_-_of_-_channel_,  _date_-_time_-_start_, _date_-_time_-_end_, google, _min_-_attendance_-_minutes_
+-> _name_-_of_-_channel_,  _date_-_time_-_start_, _date_-_time_-_end_
+same as standart mode
+-> google 
+special key word for google mode
+-> _min_-_attendance_-_minutes_
+minimum time in minutes for understand - was student on lecture or not (Students who do not pass this threshold will be displayed in the error file). This is optional parameter (in standart 60 minutes).
